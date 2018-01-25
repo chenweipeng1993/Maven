@@ -31,6 +31,12 @@ Started Sonatype Nexus OSS 3.7.1-02
 
 -------------------------------------------------
 
+默认访问地址是
+http://cwp-vm:8081
+用户名密码是admin/admin123
+这个版本的nexus有点难受
+不建议使用此版本，建议使用2.1.2版本 如下
+
 --war包的方式
 1、安装tomcat，下载解压
 tar -zxvf apache-tomcat-8.0.49
