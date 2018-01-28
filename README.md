@@ -1,4 +1,8 @@
 ﻿# Maven
+一个官方的仓库：https://oss.sonatype.org
+远程仓库central：https://repo1.maven.org/maven2/
+
+
 1、新建用户
 adduser 用户名
 。。。提示用户密码。。。等等输入
@@ -52,3 +56,29 @@ export PATH=$JAVA_HOME/bin:$JRE_HOME/bin:$HADOOP_HOME/bin:$TOMCAT_HOME/bin:$PATH
 source profile
 3、上传war到tomcat/webapps下
 启动tomcat即可
+
+
+----手动更新索引------
+1.手动更新
+1.  下载索引文件
+在http://repo.maven.apache.org/maven2/.index/ 中下载
+nexus-maven-repository-index.gz
+nexus-maven-repository-index.properties
+然后再下载一个indexer-cli-5.1.0.jar
+indexer的下载地址:http://maven.outofmemory.cn/org.apache.maven.indexer/indexer-cli/5.1.0/
+indexer的Maven
+
+<dependency>
+    <groupId>org.apache.maven.indexer</groupId>
+    <artifactId>indexer-cli</artifactId>
+    <version>5.1.0</version>
+</dependency>
+2.   解压缩索引文件
+将上面三个文件（.gz & .properties & .jar）放置到同一目录下，运行如下命令
+java -jar indexer-cli-5.1.0.jar -u nexus-maven-repository-index.gz -d indexer
+3.   停止nexus
+4.   删除原有的索引文件
+将{nexus_home}\sonatype-work\nexus\indexer\central-ctx下的文件全部删掉
+5.   拷贝索引至central-ctx目录下
+将nexus-maven-repository-index.gz解压后的indexer目录中所有文件，放到sonatype-work\nexus\indexer\central-ctx下面
+6.   启动nexus即自动更新索引
