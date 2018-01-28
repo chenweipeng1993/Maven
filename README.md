@@ -2,7 +2,7 @@
 一个官方的仓库：https://oss.sonatype.org
 远程仓库central：https://repo1.maven.org/maven2/
 
-
+3er4#ER$
 1、新建用户
 adduser 用户名
 。。。提示用户密码。。。等等输入
