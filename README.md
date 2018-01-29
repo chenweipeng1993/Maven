@@ -83,7 +83,7 @@ java -jar indexer-cli-5.1.0.jar -u nexus-maven-repository-index.gz -d indexer
 将nexus-maven-repository-index.gz解压后的indexer目录中所有文件，放到sonatype-work\nexus\indexer\central-ctx下面
 6.   启动nexus即自动更新索引
 
-如果以上的设置ok之后还是打开central的browse remote中Central还是空的，需要进行http代理设置
+如果以上的设置ok之后还是打开central的browse remote中Central还是空的，需要进行http代理设置，也需要吧central配置的remote storage location由https修改http的 如：http://repo1.maven.org/maven2/
 -----有一些是需要配置http代理的-如公司内部网络-例如nexus2.*版本设置
 1.在administration目录下点击Server
 2.在新打开的页签中找到Default http proxy settings(optional)
