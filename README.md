@@ -82,3 +82,17 @@ java -jar indexer-cli-5.1.0.jar -u nexus-maven-repository-index.gz -d indexer
 5.   拷贝索引至central-ctx目录下
 将nexus-maven-repository-index.gz解压后的indexer目录中所有文件，放到sonatype-work\nexus\indexer\central-ctx下面
 6.   启动nexus即自动更新索引
+
+如果以上的设置ok之后还是打开central的browse remote中Central还是空的，需要进行http代理设置
+-----有一些是需要配置http代理的-如公司内部网络-例如nexus2.*版本设置
+1.在administration目录下点击Server
+2.在新打开的页签中找到Default http proxy settings(optional)
+3.输入proxy host 和proxy port 可以在ie浏览器打开Internet选项，选择连接，打开局域网设置，这里面有配置地址和端口
+4.一般都要验证身份的，够远Authentication（optional） 输入username 和 password ，NT LAN host 填写本地的ip，NT LAN Manager Domain填写域名，这个可以打开我的电脑（计算机）右击选择属性在上面可以看到域
+demo:
+proxy host : proxy.huawei.com
+proxy port : 8080
+username  : xxxxxx
+password : xxxxxx
+NT LAN host : xxx.xxx.xxx.xxx
+NT LAN Manager Domain : china.huawei.com
