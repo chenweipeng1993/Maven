@@ -1,0 +1,4 @@
+https://www.cnblogs.com/hantianwei/archive/2012/03/14/2395634.html
+下载后解压，把tail.exe 复制到 目录：C:\Windows\System32 下
+执行命令tail -f D:\logs\log.log
+只能使用tail -f 
