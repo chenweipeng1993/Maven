@@ -131,6 +131,32 @@ under the License.
       <passphrase>optional; leave empty if not used.</passphrase>
     </server>
     -->
+	<!--设置上传的用户名和密码，这个是在项目中用到的，一般配置在parent pom.xml中-->
+	<!--
+	<distributionManagement> 
+		<repository> 
+		    <id>releases</id> 
+		    <name>Internal Releases</name> 
+		    <url>http://localhost:8081/nexus/content/repositories/releases/</url> 
+		</repository> 
+		<snapshotRepository> 
+		    <id>snapshots</id> 
+		    <name>Internal Snapshots</name> 
+		    <url>http://localhost:8001/nexus/content/repositories/snapshots/</url> 
+		</snapshotRepository> 
+	</distributionManagement>
+	-->
+	<server>
+	<!--名字要一致-->
+      <id>releases</id>
+      <username>admin</username>
+      <password>3er4#ER$</password>
+    </server>
+	<server>
+      <id>snapshots</id>
+      <username>admin</username>
+      <password>3er4#ER$</password>
+    </server>
   </servers>
 
   <!-- mirrors
