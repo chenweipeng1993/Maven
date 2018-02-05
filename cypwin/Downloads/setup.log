@@ -1,0 +1,117 @@
+2018/02/05 21:26:21 Starting cygwin install, version 2.884
+2018/02/05 21:26:21 User has backup/restore rights
+2018/02/05 21:26:21 io_stream_cygfile: fopen(/etc/setup/setup.rc) failed 2 No such file or directory
+2018/02/05 21:26:21 Current Directory: C:\Users\ChenWeiPeng\Downloads
+2018/02/05 21:26:21 Could not open service McShield for query, start and stop. McAfee may not be installed, or we don't have access.
+2018/02/05 21:26:25 source: download
+2018/02/05 21:27:29 Selected local directory: D:\WorkSpace\GitHub\Maven\cypwin\Downloads
+2018/02/05 21:27:32 net: IE5
+2018/02/05 21:27:56 site: http://cygwin.mirror.constant.com/
+2018/02/05 21:28:07 io_stream_cygfile: fopen(/etc/setup/installed.db) failed 2 No such file or directory
+2018/02/05 21:28:08 io_stream_cygfile: fopen(/etc/setup/timestamp) failed 2 No such file or directory
+2018/02/05 21:28:41 Adding required dependency bzip2: Selecting version 1.0.6-3 for installation.
+2018/02/05 21:28:41 Adding required dependency ca-certificates: Selecting version 2.16-1 for installation.
+2018/02/05 21:28:41 Adding required dependency groff: Selecting version 1.22.3-1 for installation.
+2018/02/05 21:28:41 Adding required dependency less: Selecting version 487-1 for installation.
+2018/02/05 21:28:41 Adding required dependency libargp: Selecting version 20110921-3 for installation.
+2018/02/05 21:28:41 Adding required dependency libattr1: Selecting version 2.4.46-1 for installation.
+2018/02/05 21:28:41 Adding required dependency libblkid1: Selecting version 2.25.2-2 for installation.
+2018/02/05 21:28:41 Adding required dependency libbz2_1: Selecting version 1.0.6-3 for installation.
+2018/02/05 21:28:41 Adding required dependency libffi6: Selecting version 3.2.1-2 for installation.
+2018/02/05 21:28:41 Adding required dependency libgcc1: Selecting version 6.4.0-5 for installation.
+2018/02/05 21:28:41 Adding required dependency libgdbm4: Selecting version 1.12-1 for installation.
+2018/02/05 21:28:41 Adding required dependency libgmp10: Selecting version 6.1.2-1 for installation.
+2018/02/05 21:28:41 Adding required dependency libiconv: Selecting version 1.14-3 for installation.
+2018/02/05 21:28:41 Adding required dependency libiconv2: Selecting version 1.14-3 for installation.
+2018/02/05 21:28:41 Adding required dependency libintl8: Selecting version 0.19.8.1-2 for installation.
+2018/02/05 21:28:41 Adding required dependency liblzma5: Selecting version 5.2.3-1 for installation.
+2018/02/05 21:28:41 Adding required dependency libmpfr4: Selecting version 3.1.6-1p1 for installation.
+2018/02/05 21:28:41 Adding required dependency libncursesw10: Selecting version 6.0-12.20171125 for installation.
+2018/02/05 21:28:41 Adding required dependency libp11-kit0: Selecting version 0.23.5-1 for installation.
+2018/02/05 21:28:41 Adding required dependency libpcre1: Selecting version 8.40-3 for installation.
+2018/02/05 21:28:41 Adding required dependency libpipeline1: Selecting version 1.4.0-1 for installation.
+2018/02/05 21:28:41 Adding required dependency libpopt-common: Selecting version 1.16-2 for installation.
+2018/02/05 21:28:41 Adding required dependency libpopt0: Selecting version 1.16-2 for installation.
+2018/02/05 21:28:41 Adding required dependency libsigsegv2: Selecting version 2.10-2 for installation.
+2018/02/05 21:28:41 Adding required dependency libsmartcols1: Selecting version 2.25.2-2 for installation.
+2018/02/05 21:28:41 Adding required dependency libssp0: Selecting version 6.4.0-4 for installation.
+2018/02/05 21:28:41 Adding required dependency libstdc++6: Selecting version 6.4.0-5 for installation.
+2018/02/05 21:28:41 Adding required dependency libtasn1_6: Selecting version 4.12-1 for installation.
+2018/02/05 21:28:41 Adding required dependency libuuid1: Selecting version 2.25.2-2 for installation.
+2018/02/05 21:28:41 Adding required dependency p11-kit: Selecting version 0.23.5-1 for installation.
+2018/02/05 21:28:41 Adding required dependency p11-kit-trust: Selecting version 0.23.5-1 for installation.
+2018/02/05 21:28:41 Adding required dependency tzcode: Selecting version 2017c-1 for installation.
+2018/02/05 21:28:41 Adding required dependency xz: Selecting version 5.2.3-1 for installation.
+2018/02/05 21:28:41 Adding required dependency zlib0: Selecting version 1.2.11-1 for installation.
+2018/02/05 21:28:41 Downloaded D:\WorkSpace\GitHub\Maven\cypwin\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/noarch/release/_autorebase/_autorebase-001007-1.tar.xz
+2018/02/05 21:28:42 Downloaded D:\WorkSpace\GitHub\Maven\cypwin\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/alternatives/alternatives-1.3.30c-10.tar.bz2
+2018/02/05 21:28:42 Downloaded D:\WorkSpace\GitHub\Maven\cypwin\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/noarch/release/base-cygwin/base-cygwin-3.8-1.tar.xz
+2018/02/05 21:28:43 Downloaded D:\WorkSpace\GitHub\Maven\cypwin\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/noarch/release/base-files/base-files-4.2-4.tar.xz
+2018/02/05 21:28:47 Downloaded D:\WorkSpace\GitHub\Maven\cypwin\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/bash/bash-4.4.12-3.tar.xz
+2018/02/05 21:28:47 Downloaded D:\WorkSpace\GitHub\Maven\cypwin\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/bzip2/bzip2-1.0.6-3.tar.xz
+2018/02/05 21:28:48 Downloaded D:\WorkSpace\GitHub\Maven\cypwin\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/noarch/release/ca-certificates/ca-certificates-2.16-1.tar.xz
+2018/02/05 21:28:55 Downloaded D:\WorkSpace\GitHub\Maven\cypwin\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/coreutils/coreutils-8.26-2.tar.xz
+2018/02/05 21:28:55 Downloaded D:\WorkSpace\GitHub\Maven\cypwin\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/cygutils/cygutils-1.4.16-2.tar.xz
+2018/02/05 21:29:00 Downloaded D:\WorkSpace\GitHub\Maven\cypwin\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/cygwin/cygwin-2.10.0-1.tar.xz
+2018/02/05 21:29:00 Downloaded D:\WorkSpace\GitHub\Maven\cypwin\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/dash/dash-0.5.9.1-1.tar.xz
+2018/02/05 21:29:01 Downloaded D:\WorkSpace\GitHub\Maven\cypwin\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/diffutils/diffutils-3.5-2.tar.xz
+2018/02/05 21:29:02 Downloaded D:\WorkSpace\GitHub\Maven\cypwin\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/editrights/editrights-1.03-1.tar.xz
+2018/02/05 21:29:03 Downloaded D:\WorkSpace\GitHub\Maven\cypwin\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/file/file-5.30-1.tar.xz
+2018/02/05 21:29:04 Downloaded D:\WorkSpace\GitHub\Maven\cypwin\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/findutils/findutils-4.6.0-1.tar.xz
+2018/02/05 21:29:08 Downloaded D:\WorkSpace\GitHub\Maven\cypwin\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/gawk/gawk-4.2.0-1.tar.xz
+2018/02/05 21:29:08 Downloaded D:\WorkSpace\GitHub\Maven\cypwin\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/getent/getent-2.18.90-4.tar.xz
+2018/02/05 21:29:10 Downloaded D:\WorkSpace\GitHub\Maven\cypwin\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/grep/grep-3.0-2.tar.xz
+2018/02/05 21:29:15 Downloaded D:\WorkSpace\GitHub\Maven\cypwin\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/groff/groff-1.22.3-1.tar.xz
+2018/02/05 21:29:16 Downloaded D:\WorkSpace\GitHub\Maven\cypwin\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/gzip/gzip-1.8-1.tar.xz
+2018/02/05 21:29:16 Downloaded D:\WorkSpace\GitHub\Maven\cypwin\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/hostname/hostname-3.13-1.tar.bz2
+2018/02/05 21:29:18 Downloaded D:\WorkSpace\GitHub\Maven\cypwin\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/texinfo/info/info-6.5-2.tar.xz
+2018/02/05 21:29:18 Downloaded D:\WorkSpace\GitHub\Maven\cypwin\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/ipc-utils/ipc-utils-1.0-2.tar.bz2
+2018/02/05 21:29:19 Downloaded D:\WorkSpace\GitHub\Maven\cypwin\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/less/less-487-1.tar.xz
+2018/02/05 21:29:19 Downloaded D:\WorkSpace\GitHub\Maven\cypwin\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/libargp/libargp-20110921-3.tar.xz
+2018/02/05 21:29:19 Downloaded D:\WorkSpace\GitHub\Maven\cypwin\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/attr/libattr1/libattr1-2.4.46-1.tar.bz2
+2018/02/05 21:29:20 Downloaded D:\WorkSpace\GitHub\Maven\cypwin\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/util-linux/libblkid1/libblkid1-2.25.2-2.tar.xz
+2018/02/05 21:29:21 Downloaded D:\WorkSpace\GitHub\Maven\cypwin\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/bzip2/libbz2_1/libbz2_1-1.0.6-3.tar.xz
+2018/02/05 21:29:21 Downloaded D:\WorkSpace\GitHub\Maven\cypwin\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/libffi/libffi6/libffi6-3.2.1-2.tar.xz
+2018/02/05 21:29:22 Downloaded D:\WorkSpace\GitHub\Maven\cypwin\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/gcc/libgcc1/libgcc1-6.4.0-5.tar.xz
+2018/02/05 21:29:22 Downloaded D:\WorkSpace\GitHub\Maven\cypwin\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/gdbm/libgdbm4/libgdbm4-1.12-1.tar.xz
+2018/02/05 21:29:23 Downloaded D:\WorkSpace\GitHub\Maven\cypwin\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/gmp/libgmp10/libgmp10-6.1.2-1.tar.xz
+2018/02/05 21:29:23 Downloaded D:\WorkSpace\GitHub\Maven\cypwin\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/libiconv/libiconv-1.14-3.tar.xz
+2018/02/05 21:29:25 Downloaded D:\WorkSpace\GitHub\Maven\cypwin\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/libiconv/libiconv2/libiconv2-1.14-3.tar.xz
+2018/02/05 21:29:26 Downloaded D:\WorkSpace\GitHub\Maven\cypwin\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/gettext/libintl8/libintl8-0.19.8.1-2.tar.xz
+2018/02/05 21:29:26 Downloaded D:\WorkSpace\GitHub\Maven\cypwin\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/xz/liblzma5/liblzma5-5.2.3-1.tar.xz
+2018/02/05 21:29:27 Downloaded D:\WorkSpace\GitHub\Maven\cypwin\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/mpfr/libmpfr4/libmpfr4-3.1.6-1p1.tar.xz
+2018/02/05 21:29:28 Downloaded D:\WorkSpace\GitHub\Maven\cypwin\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/ncurses/libncursesw10/libncursesw10-6.0-12.20171125.tar.xz
+2018/02/05 21:29:32 Downloaded D:\WorkSpace\GitHub\Maven\cypwin\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/openssl/libopenssl100/libopenssl100-1.0.2n-1.tar.xz
+2018/02/05 21:29:33 Downloaded D:\WorkSpace\GitHub\Maven\cypwin\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/p11-kit/libp11-kit0/libp11-kit0-0.23.5-1.tar.xz
+2018/02/05 21:29:34 Downloaded D:\WorkSpace\GitHub\Maven\cypwin\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/pcre/libpcre1/libpcre1-8.40-3.tar.xz
+2018/02/05 21:29:34 Downloaded D:\WorkSpace\GitHub\Maven\cypwin\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/libpipeline/libpipeline1/libpipeline1-1.4.0-1.tar.xz
+2018/02/05 21:29:34 Downloaded D:\WorkSpace\GitHub\Maven\cypwin\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/popt/libpopt-common/libpopt-common-1.16-2.tar.xz
+2018/02/05 21:29:34 Downloaded D:\WorkSpace\GitHub\Maven\cypwin\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/popt/libpopt0/libpopt0-1.16-2.tar.xz
+2018/02/05 21:29:35 Downloaded D:\WorkSpace\GitHub\Maven\cypwin\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/readline/libreadline7/libreadline7-7.0.3-3.tar.xz
+2018/02/05 21:29:35 Downloaded D:\WorkSpace\GitHub\Maven\cypwin\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/libsigsegv/libsigsegv2/libsigsegv2-2.10-2.tar.xz
+2018/02/05 21:29:36 Downloaded D:\WorkSpace\GitHub\Maven\cypwin\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/util-linux/libsmartcols1/libsmartcols1-2.25.2-2.tar.xz
+2018/02/05 21:29:36 Downloaded D:\WorkSpace\GitHub\Maven\cypwin\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/gcc/libssp0/libssp0-6.4.0-4.tar.xz
+2018/02/05 21:29:38 Downloaded D:\WorkSpace\GitHub\Maven\cypwin\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/gcc/libstdc++6/libstdc++6-6.4.0-5.tar.xz
+2018/02/05 21:29:38 Downloaded D:\WorkSpace\GitHub\Maven\cypwin\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/libtasn1/libtasn1_6/libtasn1_6-4.12-1.tar.xz
+2018/02/05 21:29:38 Downloaded D:\WorkSpace\GitHub\Maven\cypwin\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/util-linux/libuuid1/libuuid1-2.25.2-2.tar.xz
+2018/02/05 21:29:39 Downloaded D:\WorkSpace\GitHub\Maven\cypwin\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/login/login-1.11-1.tar.xz
+2018/02/05 21:29:41 Downloaded D:\WorkSpace\GitHub\Maven\cypwin\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/man-db/man-db-2.7.5-2.tar.xz
+2018/02/05 21:29:42 Downloaded D:\WorkSpace\GitHub\Maven\cypwin\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/mintty/mintty-2.8.3-0.tar.xz
+2018/02/05 21:29:43 Downloaded D:\WorkSpace\GitHub\Maven\cypwin\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/ncurses/ncurses-6.0-12.20171125.tar.xz
+2018/02/05 21:29:45 Downloaded D:\WorkSpace\GitHub\Maven\cypwin\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/openssl/openssl-1.0.2n-1.tar.xz
+2018/02/05 21:29:45 Downloaded D:\WorkSpace\GitHub\Maven\cypwin\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/p11-kit/p11-kit-0.23.5-1.tar.xz
+2018/02/05 21:29:46 Downloaded D:\WorkSpace\GitHub\Maven\cypwin\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/p11-kit/p11-kit-trust/p11-kit-trust-0.23.5-1.tar.xz
+2018/02/05 21:29:47 Downloaded D:\WorkSpace\GitHub\Maven\cypwin\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/rebase/rebase-4.4.4-1.tar.xz
+2018/02/05 21:29:47 Downloaded D:\WorkSpace\GitHub\Maven\cypwin\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/run/run-1.3.4-2.tar.xz
+2018/02/05 21:29:48 Downloaded D:\WorkSpace\GitHub\Maven\cypwin\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/sed/sed-4.4-1.tar.xz
+2018/02/05 21:29:50 Downloaded D:\WorkSpace\GitHub\Maven\cypwin\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/tar/tar-1.29-1.tar.xz
+2018/02/05 21:29:51 Downloaded D:\WorkSpace\GitHub\Maven\cypwin\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/ncurses/terminfo/terminfo-6.0-12.20171125.tar.xz
+2018/02/05 21:29:51 Downloaded D:\WorkSpace\GitHub\Maven\cypwin\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/tzcode/tzcode-2017c-1.tar.xz
+2018/02/05 21:29:52 Downloaded D:\WorkSpace\GitHub\Maven\cypwin\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/noarch/release/tzdata/tzdata-2017c-1.tar.xz
+2018/02/05 21:29:55 Downloaded D:\WorkSpace\GitHub\Maven\cypwin\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/util-linux/util-linux-2.25.2-2.tar.xz
+2018/02/05 21:29:56 Downloaded D:\WorkSpace\GitHub\Maven\cypwin\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/vim/vim-minimal/vim-minimal-8.0.1376-1.tar.xz
+2018/02/05 21:29:56 Downloaded D:\WorkSpace\GitHub\Maven\cypwin\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/which/which-2.20-2.tar.bz2
+2018/02/05 21:29:58 Downloaded D:\WorkSpace\GitHub\Maven\cypwin\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/xz/xz-5.2.3-1.tar.xz
+2018/02/05 21:29:58 Downloaded D:\WorkSpace\GitHub\Maven\cypwin\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/zlib/zlib0/zlib0-1.2.11-1.tar.xz
+2018/02/05 21:30:42 note: Download Complete
+2018/02/05 21:30:42 Ending cygwin install

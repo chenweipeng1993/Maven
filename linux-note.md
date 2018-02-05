@@ -126,6 +126,9 @@ ntp服务器配置
 https://www.cnblogs.com/jczhu/p/5851268.html
 
 
+windows下查看端口占用情况
+netstat -ano|findstr "9001"
+
 
 
 
