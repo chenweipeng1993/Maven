@@ -96,3 +96,14 @@ username  : xxxxxx
 password : xxxxxx
 NT LAN host : xxx.xxx.xxx.xxx
 NT LAN Manager Domain : china.huawei.com
+
+
+
+-----maven项目创建---
+maven自定义变量及属性
+https://www.cnblogs.com/zrbfree/p/6979389.html
+设置变量、打包、编码
+
+maven的远端仓库查看jar
+https://mvnrepository.com/artifact/org.apache.hadoop/hadoop-core
+
