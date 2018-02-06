@@ -129,6 +129,10 @@ https://www.cnblogs.com/jczhu/p/5851268.html
 windows下查看端口占用情况
 netstat -ano|findstr "9001"
 
+在linux上打上斷點進行遠程debug
+tomcat/bin/setvmargs.sh
+JAVA_OPTS="$JAVA_OPTS "-Xdebug" "-Xnoagent" "-Djava.compiler=NONE" "-Xrunjdwp:transport=dt_socket,server=y,suspend=n,address=4999
+
 
 
 
