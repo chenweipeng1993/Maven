@@ -107,3 +107,6 @@ https://www.cnblogs.com/zrbfree/p/6979389.html
 maven的远端仓库查看jar
 https://mvnrepository.com/artifact/org.apache.hadoop/hadoop-core
 
+scope标签详细解释
+http://blog.csdn.net/kimylrong/article/details/50353161
+
