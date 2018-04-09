@@ -114,7 +114,28 @@ Put Label （打标记）
 功能：帮助管理Spring容器。还提供了很多其他的管理，比如EJB
 使用：
 1.点击+号，选择Spring，选择模块
-2.在Spring中，点击+号，起一个名字，选择spring配置文件。（SpringBoot中，选择类文
-
-件）
+2.在Spring中，点击+号，起一个名字，选择spring配置文件。（SpringBoot中，选择类文件）
 3.项目的各个文件中会出现spring的logo，其提供了很多功能。比如查看该Bean是在哪提供的。
+--数据库的关联
+---
+关联了数据库之后，如果需要重构字段或表名，不仅可以更改当前页面，还可以更改所有引用到该表的sql以及数据库表名或字段
+ctrl + F6 重构
+
+--断点调试
+---
+添加/取消断点	Ctrl + F8
+调试			Shift + F10
+运行			Shift + F9
+单步运行		F8
+跳到下一个断点	F9
+查看所有断点	Shift + Ctrl + F8
+禁止所有断点	debug后在左下角的Mute breakPoints
+条件断点		在需要用条件断点的断点处，使用Shift + Ctrl + F8
+动态求值		Alt + F8
+运行到指定行	Alt + F9
+动态改变值		F2
+--运行当前上下文
+Ctril + Shift + F9 debug configuration
+--选择运行
+Alt   + Shift + F9 debug
+
