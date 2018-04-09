@@ -44,3 +44,77 @@ ctrl+end到文件最后
 alt+ctrl+shift+J选中相同的行
 alt+insert getset快捷创建 toString重写
 ctrl+shift+t 创建单元测试快捷键
+
+--代码小助手
+--Live Templates(代码模板)
+---
+位置：菜单->File->Setting->Editor->Live Templates
+功能：定义模板，使用特定“字符”快速敲击出某段代码。
+举例：psvm 敲出 public static void main(String[] args)
+使用：
+1.点击右侧+号。选中Template Group（模板组），自己定一个组。
+2.选择自己的组，点击+号，选择Live Template，增添自己的模板。
+3.在Abbreviation（缩写）中写自己的缩写，比如pis。
+4.在Description中写响应的描述。比如 private String
+5.在Template Text中写模板代码。
+比如：
+private String $VAR1$; //$VAR2$
+$END$
+其中$VAR1$表示参数。当产生模板后光标会在参数位置上，当写完一个参数后，按下回车会
+到另一个参数。最后到$END$处。 
+参数顺序可以使用右侧的"Edit variables"调整。
+6.在下方选择"Define"，定义使用该模板的地方。
+--Postfix Completion(后缀补全)
+---
+位置：菜单->File->Setting->Editor->General->Postfix Completion
+功能：使用后缀，快速敲出代码块。 
+举例：100.fori 敲出 for(int i=0;i<100;i++){}
+--编写高质量代码
+--alter + enter:
+---
+1.自动创建函数
+2.List replace
+3.字符串format或者build
+4.实现接口
+5.单词拼写
+6.导包
+--重构
+---
+Shift + F6 Rename
+C+F6 方法添加参数 或者 alt + enter
+--抽取
+---
+抽取变量：ctrl + alt + v（refactor选项）
+抽取静态变量：ctrl + alt + c（refactor选项）
+抽取成员变量：ctrl + alt + f（refactor选项）
+抽取方法参数：ctrl + alt + p（refactor选项）
+抽取函数：ctrl + alt + m（refactor选项）
+--寻找修改轨迹
+---
+--git集成
+移动所有修改轨迹：ctrl + alt + shift + ↑
+撤销：ctrl + alt + z
+Annotate
+位置：代码区域中，显示行号的左侧边栏，右键点击 Annotate
+功能：显示所有行的作者名称。当鼠标放在上面可以显示该行的版本详细信息。
+--Local History (本地版本控制)
+位置：Find Action搜索吧
+功能：Idea提供的本地版本控制工具。
+使用：Find Action搜索，然后选择Local History，选择Show History，会弹出一个窗口，
+
+里面会记录以前的更改历史。
+
+Put Label （打标记）
+位置：搜索出Local History，选择第二个Put Label。
+功能：对应上面版本控制工具，可以发布一个Label。也可以认为是打个标记。
+
+--Spring的关联
+---
+位置：菜单->File->Project Structure->Facets
+功能：帮助管理Spring容器。还提供了很多其他的管理，比如EJB
+使用：
+1.点击+号，选择Spring，选择模块
+2.在Spring中，点击+号，起一个名字，选择spring配置文件。（SpringBoot中，选择类文
+
+件）
+3.项目的各个文件中会出现spring的logo，其提供了很多功能。比如查看该Bean是在哪提供的。
