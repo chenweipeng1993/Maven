@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <display-name></display-name>
+  <servlet>
+    <servlet-name>AccountServlet</servlet-name>
+    <servlet-class>cn.itcast.web.servlet.AccountServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>DataSourceServlet</servlet-name>
+    <servlet-class>cn.itcast.DataSourceServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>CustomerFindAllServlet</servlet-name>
+    <servlet-class>cn.itcast.customer.web.servlet.CustomerFindAllServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>CustomerDelByIdServlet</servlet-name>
+    <servlet-class>cn.itcast.customer.web.servlet.CustomerDelByIdServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>CustomerFindByIdServlet</servlet-name>
+    <servlet-class>cn.itcast.customer.web.servlet.CustomerFindByIdServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>CustomerUpdateServlet</servlet-name>
+    <servlet-class>cn.itcast.customer.web.servlet.CustomerUpdateServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>CustomerAddServlet</servlet-name>
+    <servlet-class>cn.itcast.customer.web.servlet.CustomerAddServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>CustomerDelSelectServlet</servlet-name>
+    <servlet-class>cn.itcast.customer.web.servlet.CustomerDelSelectServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>CustomerSimpleSelectServlet</servlet-name>
+    <servlet-class>cn.itcast.customer.web.servlet.CustomerSimpleSelectServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>CustomerFindAllByPageServlet</servlet-name>
+    <servlet-class>cn.itcast.customer.web.servlet.CustomerFindAllByPageServlet</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>AccountServlet</servlet-name>
+    <url-pattern>/account</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DataSourceServlet</servlet-name>
+    <url-pattern>/ds</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CustomerFindAllServlet</servlet-name>
+    <url-pattern>/findAll</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CustomerDelByIdServlet</servlet-name>
+    <url-pattern>/delById</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CustomerFindByIdServlet</servlet-name>
+    <url-pattern>/findById</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CustomerUpdateServlet</servlet-name>
+    <url-pattern>/update</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CustomerAddServlet</servlet-name>
+    <url-pattern>/add</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CustomerDelSelectServlet</servlet-name>
+    <url-pattern>/delSelect</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CustomerSimpleSelectServlet</servlet-name>
+    <url-pattern>/simpleSelect</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CustomerFindAllByPageServlet</servlet-name>
+    <url-pattern>/findAllByPage</url-pattern>
+  </servlet-mapping>	
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>

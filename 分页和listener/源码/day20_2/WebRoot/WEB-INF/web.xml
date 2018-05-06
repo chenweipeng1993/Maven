@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" xmlns="http://java.sun.com/xml/ns/javaee"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+	<!-- 注册监听ServletContext对象创建与销毁 <listener> <listener-class>cn.itcast.web.listener.application.MyServletContextListener</listener-class> 
+		</listener> -->
+	<!-- 注冊监听HttpSession对象创建与销毁 <listener> <listener-class>cn.itcast.listener.session.MySessionListener</listener-class> 
+		</listener> -->
+	<!-- 监听HttpServletRequest对象的创建与销毁 <listener> <listener-class>cn.itcast.listener.request.MyRequestListener</listener-class> 
+		</listener> -->
+
+	<!-- 监听HttpSession的属性变化 <listener> <listener-class>cn.itcast.listener.session.MySessionAttributeListener</listener-class> 
+		</listener> -->
+
+	<!-- 监听器案例
+	<listener>
+		<listener-class>cn.itcast.listener.demo.MyServletContextListener</listener-class>
+	</listener>
+
+	<listener>
+		<listener-class>cn.itcast.listener.demo.MyHttpSessionListener</listener-class>
+	</listener> -->
+
+	<welcome-file-list>
+		<welcome-file>index.jsp</welcome-file>
+	</welcome-file-list>
+
+</web-app>
